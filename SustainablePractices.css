@@ -1,0 +1,104 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f0f5f9;
+    color: #333;
+}
+
+header {
+    background-color: #006400;
+    color: white;
+    padding: 1em 0;
+    text-align: center;
+}
+
+header h1 {
+    margin: 0;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+    display: flex;
+    justify-content: center;
+}
+
+nav ul li {
+    margin: 0 1em;
+}
+
+nav ul li a {
+    color: white;
+    text-decoration: none;
+}
+
+section {
+    padding: 2em;
+    margin: 1em auto;
+    max-width: 800px;
+    background-color: white;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+}
+
+#overview {
+    background-color: #d9fdd3;
+    border-left: 6px solid #006400;
+}
+
+#best-practices article {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 0;
+}
+
+#best-practices article h3 {
+    margin-top: 0;
+}
+
+#case-studies article {
+    border-bottom: 1px solid #ccc;
+    padding: 1em 0;
+}
+
+#case-studies article h3 {
+    margin-top: 0;
+}
+
+form {
+    display: flex;
+    flex-direction: column;
+}
+
+form label {
+    margin-top: 1em;
+}
+
+form input, form textarea, form button {
+    margin-top: 0.5em;
+    padding: 0.5em;
+    font-size: 1em;
+}
+
+form button {
+    background-color: #006400;
+    color: white;
+    border: none;
+    cursor: pointer;
+    margin-top: 1em;
+}
+
+form button:hover {
+    background-color: #004d00;
+}
+
+footer {
+    background-color: #006400;
+    color: white;
+    text-align: center;
+    padding: 1em 0;
+    margin-top: 2em;
+}
+
+footer p {
+    margin: 0.5em 0;
+}
